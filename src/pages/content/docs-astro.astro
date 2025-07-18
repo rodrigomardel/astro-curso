@@ -1,0 +1,38 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import "../../styles/global.css";
+---
+<Layout>
+  <section class="mb-16">
+      <h2 class="text-4xl font-semibold mb-4 text-center text-pink-500">Documentación de Astro</h2>
+      <p class="mb-4">
+        Astro ofrece una <strong>documentación clara y completa</strong> para ayudarte en cada paso del desarrollo:
+      </p>
+      <ul class="list-disc list-inside space-y-1">
+        <li>Guía de inicio rápido con ejemplos paso a paso</li>
+        <li>Uso de componentes `.astro` y su sintaxis</li>
+        <li>Integraciones oficiales para Tailwind, React, Vue y más</li>
+        <li>Despliegue con Netlify, Vercel u otros servicios</li>
+        <li>Buenas prácticas para rendimiento y estructura de proyecto</li>
+      </ul>
+    </section>
+
+    <!-- ENLACES ÚTILES -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-4 text-center text-purple-900">Enlaces útiles</h2>
+      <ul class="space-y-2 list-none list-inside">
+        <li>
+          📘 <a href="https://docs.astro.build/es/" class="text-sky-600 hover:underline hover:text-purple-700" target="_blank">Documentación oficial de Astro (Español)</a>
+        </li>
+        <li>
+          🌐 <a href="https://astro.build/" class="text-sky-600 hover:underline hover:text-purple-700" target="_blank">Sitio web oficial de Astro</a>
+        </li>
+        <li>
+          📰 <a href="https://astro.build/blog/" class="text-sky-600 hover:underline hover:text-purple-700" target="_blank">Blog de Astro</a>
+        </li>
+        <li>
+          🧩 <a href="https://astro.build/integrations/" class="text-sky-600 hover:underline hover:text-purple-700" target="_blank">Catálogo de Integraciones oficiales</a>
+        </li>
+      </ul>
+    </section>
+</Layout>

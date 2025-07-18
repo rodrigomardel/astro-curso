@@ -3,7 +3,7 @@ const { href = "#", ...props } = Astro.props;
 ---
 
 <a href={href}>
-  <span class="flex flex-row gap-2 px-4 py-2 rounded-lg text-sm font-semibold transition-colors duration-300 hover:bg-gradient-to-r hover:from-purple-400 hover:to-pink-300">
+  <span class="flex flex-row gap-2 px-4 py-2 rounded-lg text-sm font-semibold transition-colors duration-300 hover:text-white hover:bg-gradient-to-r hover:from-purple-400 hover:to-pink-300">
     <slot name="before"/>
     <slot/>
     <!-- Ejemplo envolviendo un contenido por defecto que reciba este botón
